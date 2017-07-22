@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="36dp"
+        android:background="@color/colorAccent">
+        <TextView
+            android:id="@+id/tv_date_header"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageView
+            android:id="@+id/img_info"
+            android:src="@android:drawable/ic_dialog_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_date_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"
+            android:layout_marginRight="91dp"
+            android:layout_marginEnd="91dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_below="@+id/ll_header">
+        <ImageView
+            android:id="@+id/iv_movement_category"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="19dp"
+            android:layout_marginLeft="9dp" />
+        <TextView
+            android:id="@+id/tv_movement_name"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:textColor="#4a4a4a"
+            android:layout_toLeftOf="@+id/tv_movement_amount"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="14dp"
+            android:layout_alignLeft="@+id/tv_movement_date_category"
+            android:layout_alignStart="@+id/tv_movement_date_category" />
+        <TextView
+            android:id="@+id/tv_movement_amount"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:textColor="#E43737"
+            android:textSize="14dp"
+            android:layout_alignTop="@+id/tv_movement_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="6dp"
+            android:gravity="end" />
+        <TextView
+            android:id="@+id/tv_movement_date_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="#4a4a4a"
+            android:layout_below="@+id/tv_movement_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/iv_movement_category"
+            android:layout_toEndOf="@+id/iv_movement_category" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EAEAEA</color>
+    <color name="colorPrimaryDark">#a1a1a1</color>
+    <color name="colorAccent">#D44700</color>
+
+
+    <color name="colorPrimaryDarkMazizo">#222222</color>
+
+    <color name="block">#B1B1B1</color>
+    <color name="unbloc">#FFA522</color>
+
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+
+    <color name="face">#3B5998</color>
+    <color name="twitter">#01ABEE</color>
+    <color name="mail">#db4437</color>
+    <color name="share">#43aa88</color>
+
+    <!--gragicos -->
+    <color name="naranja">#D44700</color>
+    <color name="rosa">#84bf1f</color>
+    <color name="amarillito">#F1A62D</color>
+    <color name="azul">#2B7DE1</color>
+    <color name="moradito">#9D3AB5</color>
+
+</resources>

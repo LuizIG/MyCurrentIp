@@ -1,0 +1,63 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.banregio.masbanregio.ui.main.tutorial.TutorialActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="TITULO"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="60dp" />
+
+
+    <ImageView
+        android:id="@+id/img_desc"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:src="@drawable/tutorial_1"
+        android:layout_marginTop="16dp"
+        android:layout_width="220dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter" />
+
+
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_weight="1.5"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="Cada mes veras awefawe fawef  awefawef awefaewf awef awef aewf aewf awef  awef awef awe fawe fa w"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight=".5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/img_puntitos"
+            android:layout_weight="1"
+            android:src="@drawable/puntos_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatButton
+            android:layout_weight="1"
+            android:id="@+id/close"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:text="CERRAR"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

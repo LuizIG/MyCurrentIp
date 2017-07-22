@@ -1,0 +1,63 @@
+<resources>
+    <string name="facebook_app_id">286293005152877</string>
+    <string name="app_name">MÁS BanRegio</string>
+    <string name="error_no_internet">Ups, parece que no hay conexi\u00f3n a internet, ¿puedes revisar y volver a intentar?</string>
+    <string name="error_server_response">Ups, no pudimos conectarnos con el banco. ¿Podrías reiniciar el app?</string>
+    <string name="title_activity_main">Mas BanRegio</string>
+    <string name="action_settings">Borrar mis datos</string>
+    <string name="action_tutorial">Tutorial referidos</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="register_title">Bienvenido a MÁS BanRegio</string>
+    <string name="register_subtitle">Ingresa los 16 dígitos de tu tarjeta MÁS y tu NIP de cajero automático para crear tu perfil.</string>
+
+    <string name="register_subtitle_login">Escribe tu contraseña para ingresar a tu perfil de App MÁS </string>
+
+    <string name="register_title_2">Por tu seguridad genera una contraseña nueva</string>
+    <string name="register_subtitle_2">Escribe una contraseña de mínimo 6 dígitos para tu perfil en al App MÁS con la cual accederás a partir de ahora.</string>
+
+    <string name="register_card">No. de Tarjeta MÁS</string>
+    <string name="register_nip">NIP de cajero automático</string>
+    <string name="register_iniciar">CREAR PERFIL</string>
+    <string name="register_iniciar_guardar">CREAR</string>
+    <string name="register_no_cuentas">¿No cuentas con tarjeta MÁS?</string>
+    <string name="register_solicitala">SOLICÍTALA EN LÍNEA</string>
+
+
+    <string name="login_title">Ingresa los 16 dígitos de tu tarjeta MÁS.</string>
+    <string name="login_subtitle">Con ellos crearemos tu código personalizado, el cual podrás compartir por correo o redes sociales.</string>
+    <string name="login_card">Número de Tarjeta</string>
+    <string name="login_nip">NIP</string>
+    <string name="login_iniciar">INICIAR</string>
+    <string name="login_no_cuentas">¿No cuentas con tarjeta MÁS?</string>
+    <string name="login_solicitala">SOLICÍTALA EN LÍNEA</string>
+
+
+    <string name="str_snackbar_close">CERRAR</string>
+
+    <string name="saldo_linea">Línea de crédito</string>
+    <string name="saldo_disponible">Saldo Disponible</string>
+    <string name="saldo_total">Saldo Total</string>
+    <string name="title_detail">Detalle</string>
+    <string name="str_alert_mov">Las transacciones pendientes son las que todav\u00eda est\u00e1n en proceso de llegar a la cuenta del banco o comercio donde compraste.</string>
+
+    <string name="block">Bloquear tarjeta</string>
+    <string name="unbloc">Activar tarjeta</string>
+
+    <string name="iniciar">INICIAR</string>
+    <string name="title_activity_terms_service">Términos y condiciones</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+
+    <string-array name="titulos">
+        <item>¿QUÉ ES EL PROGRAMA DE REFERIDOS?</item>
+        <item>¿CÓMO PUEDES REFERIR?</item>
+        <item>TUS RECOMPENSAS</item>
+    </string-array>
+
+    <string-array name="descripciones">
+        <item>Por cada amigo que solicite exitosamente su tarjeta MÁS con tu liga personalizada recibirás el <![CDATA[<b>1% de todas sus compras en tu tarjeta cada corte de mes.</b>]]>\n\nD</item>
+            <item>Presiona el botón referir ubicado en la sección de saldo y recompensas y selecciona por que medio quieres compartir tu liga personalizada.</item>
+        <item>Cada mes verás reflejado el 1% de tus compras y las de tus amigos referidos.\nÚsalo para comprar o retirarlo en efectivo en nuestros cajeros desde tu misma tarjeta seleccionando la opción de Recompensas</item>
+    </string-array>
+</resources>

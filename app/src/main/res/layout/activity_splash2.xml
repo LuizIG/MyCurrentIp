@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:context="com.banregio.masbanregio.ui.splash.Splash2Activity">
+
+    <ImageView
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_mas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="¡BIENVENIDO A"
+        android:layout_marginTop="32dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="MÁS BANREGIO!"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Si ya tienes tu Tarjeta MÁS, es el momento de ganar efectivo con tus compras, las de tus familiares y amigos."
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/btn_continuar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="16dp"
+        android:text="@string/iniciar"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+</LinearLayout>
